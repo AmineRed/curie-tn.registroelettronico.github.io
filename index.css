@@ -1,0 +1,142 @@
+body {
+  background-image: url('amine.jpg');
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #163253;
+}
+
+/*BOX AIUTO*/
+.box-aiuto {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+span {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: underline;
+}
+
+/*BOX*/
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 468px;
+  height: 360px;
+  text-align: center;
+  overflow: hidden;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+  padding: 16px;
+}
+
+.forum-quadrato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-forum {
+  margin-top: 30px;
+}
+
+/*IMMAGINE FORUM*/
+#top-forum {
+  width: 180px;
+  margin-top: -20px;
+}
+
+/*ELEMENTI FORUM*/
+#utente {
+  margin-bottom: 20px;
+}
+
+.spazio-utente {
+  padding-left: 51px;
+  margin-right: 100%;
+  margin-bottom: 3px;
+}
+
+.spazio-password {
+  padding-left: 80px;
+  margin-right: 100%;
+  margin-bottom: 3px;
+}
+
+input {
+  height: 44px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*BOTTONE*/
+button {
+  width: 78.2px;
+  height: 43px;
+  background-color: #2cc532;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  padding: 8px 16px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: rgb(193, 200, 208);
+  color: #163253;
+  cursor: pointer;
+}
+
+@media (max-width:576px) {
+  .login {
+    width: 268px;
+    padding: 16px;
+    margin-top: 80px;
+  }
+}
+
+@media (max-width:440px) {
+  .foto-sopra {
+    display: none;
+  }
+}
+
+@media (max-width:400px) {
+  body {
+    background-image: url("mobile.png");
+  }
+
+  .box-aiuto {
+    color: white;
+  }
+
+}
+
+@media (max-width:312px) {
+
+  .login {
+    width: 100%;
+    padding: 16px;
+    margin: 0px 20px 0px 20px;
+    margin-top: 80px;
+  }
+
+  input {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+  }
+}

